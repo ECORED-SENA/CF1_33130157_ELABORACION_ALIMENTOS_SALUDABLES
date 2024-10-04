@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Aspectos importantes de nutrición y enfermedades causadas por una mala alimentación**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_33130157_ELABORACION_ALIMENTOS_SALUDABLES/#/](https://ecored-sena.github.io/CF1_33130157_ELABORACION_ALIMENTOS_SALUDABLES/#/)
 
 #
 
