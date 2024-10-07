@@ -15,52 +15,155 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema: 'Nutrición y enfermedades relacionadas con la alimentación.',
       titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      introduccion:
+        'Identificar los componentes de los alimentos, su función en el cuerpo humano, y las enfermedades relacionadas con una mala alimentación, así como su comprensión de los hábitos alimenticios en Colombia.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Texto pregunta 1 con <strong>Negrita</strong> <em>Itálica</em>.',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+            '¿Cuál es uno de los principales componentes de los alimentos que proporciona energía al cuerpo?',
+          imagen: require('@/assets/curso/img1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<strong>Negrita</strong> <em>Itálica</em>',
+              texto: 'Carbohidratos.',
               esCorrecta: true,
             },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Opción 4', esCorrecta: false },
+            { id: 'b', texto: 'Vitaminas.', esCorrecta: false },
+            { id: 'c', texto: 'Minerales.', esCorrecta: false },
+            { id: 'd', texto: 'Agua.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
-          texto: 'Texto pregunta 2',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          texto:
+            '¿Qué tipo de grasas son consideradas malas debido a su impacto negativo en la salud?',
+          imagen: require('@/assets/curso/img2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Grasas insaturadas.', esCorrecta: false },
+            { id: 'b', texto: 'Grasas poliinsaturadas.', esCorrecta: false },
+            { id: 'c', texto: 'Grasas saturadas.', esCorrecta: true },
+            { id: 'd', texto: 'Grasas monoinsaturadas.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
-          texto: 'Texto pregunta 3',
-          imagen: require('@/assets/componentes/pregunta_3.png'),
-          barajarRespuestas: false,
+          texto: '¿Cuál es un ejemplo de monosacárido?',
+          imagen: require('@/assets/curso/img3.png'),
+          barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción 1', esCorrecta: true },
-            { id: 'b', texto: 'Opción 2', esCorrecta: false },
-            { id: 'c', texto: 'Opción 3', esCorrecta: false },
-            { id: 'd', texto: 'Todas las anteriores', esCorrecta: false },
+            { id: 'a', texto: 'Lactosa.', esCorrecta: false },
+            { id: 'b', texto: 'Maltosa.', esCorrecta: false },
+            { id: 'c', texto: 'Sacarosa.', esCorrecta: false },
+            { id: 'd', texto: 'Glucosa.', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué enfermedad se asocia con un exceso de consumo de calorías y acumulación de grasa en el cuerpo?',
+          imagen: require('@/assets/curso/img4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Diabetes.', esCorrecta: false },
+            { id: 'b', texto: 'Obesidad.', esCorrecta: true },
+            {
+              id: 'c',
+              texto: 'Enfermedades cardiovasculares.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Hipertensión.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál de las siguientes vitaminas es liposoluble y se almacena en el tejido graso del cuerpo?',
+          imagen: require('@/assets/curso/img1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Vitamina D.', esCorrecta: false },
+            { id: 'b', texto: 'Vitamina C.', esCorrecta: true },
+            { id: 'c', texto: 'Vitamina B.', esCorrecta: false },
+            { id: 'd', texto: 'Vitamina A.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 6,
+          texto:
+            'El cuerpo humano no puede producir vitaminas, por lo que deben obtenerse a través de la alimentación.',
+          imagen: require('@/assets/curso/img2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Falso.', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero.', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 7,
+          texto:
+            'Las proteínas no participan en la reparación de tejidos y solo se encargan de transportar nutrientes.',
+          imagen: require('@/assets/curso/img3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Falso.', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero.', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 8,
+          texto:
+            'Las enfermedades cardiovasculares son causadas principalmente por la acumulación de grasas en las arterias.',
+          imagen: require('@/assets/curso/img4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Falso.', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero.', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 9,
+          texto:
+            'Los carbohidratos simples, como los disacáridos, no proporcionan energía al cuerpo.',
+          imagen: require('@/assets/curso/img1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Falso.', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 10,
+          texto:
+            'El consumo de grasas poliinsaturadas ayuda a reducir el colesterol malo en la sangre.',
+          imagen: require('@/assets/curso/img2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Falso.', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero.', esCorrecta: true },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
