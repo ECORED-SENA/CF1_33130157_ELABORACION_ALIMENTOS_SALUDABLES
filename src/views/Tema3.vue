@@ -35,11 +35,11 @@
                         li.d-flex
                           i.lista-ul__vineta
                           |
-                          p.mb-0 Diabetes tipo 1, donde el sistema inmunológico ataca la insulina del cuerpo.
+                          p.mb-0 #[b Diabetes tipo 1], donde el sistema inmunológico ataca la insulina del cuerpo.
                         li.d-flex
                           i.lista-ul__vineta
                           |
-                          p.mb-0 Diabetes tipo 2, donde el cuerpo no produce suficiente insulina o no la utiliza adecuadamente.
+                          p.mb-0 #[b Diabetes tipo 2], donde el cuerpo no produce suficiente insulina o no la utiliza adecuadamente.
                     .col-lg-4
                       figure
                         img(src='@/assets/curso/tema3/img2.png', alt='', style="width: 400px").m-auto
@@ -55,7 +55,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6.bg-c1.order-2.order-lg-1(data-aos="fade-right")
         .p-3
-          p.mb-0 Estos problemas se observan en más de la mitad de la población adulta, con el 37.7 % en condición de sobrepeso y el 18.7 % en obesidad. Esto se atribuye en gran parte a la creciente adopción de dietas con alimentos procesados y la disminución de actividades físicas
+          p.mb-0 Estos problemas se observan en más de la mitad de la población adulta, con el 37.7 % en condición de sobrepeso y el 18.7 % en obesidad. Esto se atribuye en gran parte a la creciente adopción de dietas con alimentos procesados y la disminución de actividades físicas.
       .col-lg-3.ps-md-0.mb-4.mb-lg-0.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img4.png', alt='', style="width: 300px").m-auto

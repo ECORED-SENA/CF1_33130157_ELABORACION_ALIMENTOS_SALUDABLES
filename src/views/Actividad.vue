@@ -95,8 +95,8 @@ export default {
           imagen: require('@/assets/curso/img1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Vitamina D.', esCorrecta: false },
-            { id: 'b', texto: 'Vitamina C.', esCorrecta: true },
+            { id: 'a', texto: 'Vitamina D.', esCorrecta: true },
+            { id: 'b', texto: 'Vitamina C.', esCorrecta: false },
             { id: 'c', texto: 'Vitamina B.', esCorrecta: false },
             { id: 'd', texto: 'Vitamina A.', esCorrecta: false },
           ],

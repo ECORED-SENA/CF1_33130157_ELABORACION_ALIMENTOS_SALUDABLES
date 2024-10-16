@@ -34,12 +34,30 @@
             .col(data-aos="fade-left")
               p.mb-0 Los carbohidratos son, en esencia, moléculas de azúcar que se clasifican según la cantidad de unidades que los componen. Los carbohidratos formados por una sola molécula de azúcar se denominan #[b monosacáridos]; aquellos que tienen dos moléculas, #[b disacáridos]; los que contienen entre 3 y 9 moléculas se conocen como #[b oligosacáridos]; y, finalmente, los #[b polisacáridos] son carbohidratos compuestos por más de 10 moléculas de azúcar.
           .row.justify-content-center.mb-5
-            .col-auto.col-lg-8
+            .col-auto.col-md-8
               .p-4.bg-c4(data-aos="fade-down")
-                figure.d-none.d-lg-block
-                  img(src='@/assets/curso/tema2/img3.svg', alt='', style="width: 600px").m-auto
-                figure.d-block.d-lg-none
-                  img(src='@/assets/curso/tema2/img3m.svg', alt='', style="width: 200px").m-auto
+                .row
+                  .col-lg-4.mb-4.mb-lg-0
+                    figure.mb-3
+                      img(src='@/assets/curso/tema2/img17.svg', alt='', style="width: 170px").m-auto
+                    .row.justify-content-center
+                      .col-auto
+                        .px-3.py-2.bg-c13
+                          p.text-center.mb-0 #[b Monosacáridos]
+                  .col-lg-4.mb-4.mb-lg-0
+                    figure.mb-3
+                      img(src='@/assets/curso/tema2/img18.svg', alt='', style="width: 170px").m-auto
+                    .row.justify-content-center
+                      .col-auto
+                        .px-3.py-2.bg-c13
+                          p.text-center.mb-0 #[b Oligosacáridos]
+                  .col-lg-4
+                    figure.mb-3
+                      img(src='@/assets/curso/tema2/img19.svg', alt='', style="width: 170px").m-auto
+                    .row.justify-content-center
+                      .col-auto
+                        .px-3.py-2.bg-c13
+                          p.text-center.mb-0 #[b Disacáridos]
     .row.mb-4
       .col-auto.bg-c5(data-aos="fade-left")
         .row.align-items-end
@@ -125,19 +143,19 @@
               p.mb-0 Es un disacárido presente en la leche, conocido como el "azúcar de la leche". Proporciona energía y nutrientes, especialmente vital para los bebés durante la lactancia. Está compuesto por los monosacáridos galactosa y glucosa.
             .col-md-auto
               figure
-                img(src='@/assets/curso/tema2/img11.svg', alt='', style="width: 150px").m-auto
+                img(src='@/assets/curso/tema2/img12.svg', alt='', style="width: 150px").m-auto
           .row(numero="2" titulo="Sacarosa")
             .col.mb-4.mb-md-0
               p.mb-0 Es el azúcar común utilizado para endulzar alimentos y bebidas. Formada por glucosa y fructosa, se presenta en forma cristalina y sin olor. Al ser absorbida, produce un aumento rápido de energía.
             .col-md-auto
               figure
-                img(src='@/assets/curso/tema2/img12.svg', alt='', style="width: 150px").m-auto
+                img(src='@/assets/curso/tema2/img13.svg', alt='', style="width: 150px").m-auto
           .row(numero="3" titulo="Maltosa")
             .col.mb-4.mb-md-0
               p.mb-0 Aunque no es esencial para el organismo humano, es ampliamente utilizada en la industria de las bebidas alcohólicas, transformándose en maltitol para la fabricación de productos como whisky. También se usa en jarabes, dulces, chocolates y productos para diabéticos.
             .col-md-auto
               figure
-                img(src='@/assets/curso/tema2/img13.svg', alt='', style="width: 150px").m-auto
+                img(src='@/assets/curso/tema2/img11.svg', alt='', style="width: 150px").m-auto
     .row.mb-4
       .col-auto.bg-c5(data-aos="fade-left")
         .row.align-items-end
@@ -152,7 +170,7 @@
           figure.mb-3
             img(src='@/assets/curso/tema2/img7.png', alt='', style="width: 470px").m-auto
           p.mb-2 #[b Inulina]
-          p.mb-0 La inulina es un oligosacárido formado por cadenas de fructosa, presente en raíces y tubérculos. Es un componente común en la dieta occidental. AI ser ingeridam las moléculas de fructosa se liberan durante la digestión, proporcionando beneficios al bienestar general del cuerpo humano.
+          p.mb-0 La inulina es un oligosacárido formado por cadenas de fructosa, presente en raíces y tubérculos. Es un componente común en la dieta occidental. Al ser ingerida, las moléculas de fructosa se liberan durante la digestión, proporcionando beneficios al bienestar general del cuerpo humano.
       .col-10.col-lg-5(data-aos="fade-left")
         .p-4.bg-c9
           figure.mb-3
@@ -177,7 +195,7 @@
             .col-lg-4
               figure
                 img(src='@/assets/curso/tema2/img10.png', alt='', style="width: 200px").m-auto
-          .row.align-items-center(titulo="Almidón")
+          .row.align-items-center(titulo="Glucógeno")
             .col-lg-8.mb-4.mb-lg-0
               p.mb-0 Similar al almidón, el glucógeno es un polisacárido que actúa como reserva energética y está compuesto por cadenas de glucosa. Es insoluble en agua y, al mezclarse con esta, forma dispersiones de sólidos coloidales. Después de la digestión, el glucógeno se almacena principalmente en el hígado, aunque también se distribuye en menor medida en los músculos.
             .col-lg-4
@@ -242,7 +260,7 @@
                   .row.justify-content-center.align-items-center
                     .col-lg-6.mb-4.mb-lg-0
                       p #[b Regulación de funciones celulares]
-                      p.mb-0 Muchas proteínas actúan como reguladoras, controlando procesos celulares fundamentales para el correcto funcionamiento del organ 
+                      p.mb-0 Muchas proteínas actúan como reguladoras, controlando procesos celulares fundamentales para el correcto funcionamiento del organismo.
                     .col-lg-4
                       figure
                         img(src='@/assets/curso/tema2/img17.png', alt='', style="width: 400px").m-auto

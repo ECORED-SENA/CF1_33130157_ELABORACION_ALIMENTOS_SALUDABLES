@@ -130,38 +130,22 @@ export default {
     {
       tema: 'Historia de los alimentos',
       referencia:
-        'Diana Uribe (2023). Historia de los Alimentos I.  [Archivo de video] Youtube.',
-      tipo: 'Podcast',
+        'Diana Uribe (2023). Historia de los Alimentos I.  [Archivo de video] YouTube.',
+      tipo: 'Pódcast',
       link: 'https://www.youtube.com/watch?v=_wzbrO1-zzY&ab_channel=DianaUribe',
     },
     {
       tema: 'Carbohidratos',
       referencia:
-        'A Cierta Ciencia. (2022). Carbohidratos ¿Qué son?  Funciones  EJEMPLOS  [Fácil y Rápido] | BIOLOGÍA |  [Archivo de video] Youtube.',
+        'A Cierta Ciencia. (2022). Carbohidratos ¿Qué son?  Funciones  EJEMPLOS  [Fácil y Rápido] | BIOLOGÍA |  [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=9_p8ucAG3Iw&ab_channel=ACiertaCiencia',
     },
     {
-      tema: 'Proteínas',
-      referencia:
-        'López Fandiño, R. (2014). Las proteínas de los alimentos: ( ed.). Editorial CSIC Consejo Superior de Investigaciones Científicas.',
-      tipo: 'Capítulo 1',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/41772',
-    },
-    {
-      tema: 'Grasas',
-      referencia:
-        'Palmetti, N. (2020). Grasas saludables: los mitos del colesterol: (1 ed.). Bubok Publishing S.L.',
-      tipo: 'Capítulo 1',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/230500',
-    },
-    {
       tema: 'Vitaminas',
       referencia:
-        'Sé Curioso — TED-Ed. (2017). ¿Cuál es el valor de las vitaminas? - Ginnie Trinh Nguyen. [Archivo de video] Youtube.',
+        'Sé Curioso — TED-Ed. (2017). ¿Cuál es el valor de las vitaminas? - Ginnie Trinh Nguyen. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=n1zLjStkLxA&ab_channel=S%C3%A9Curioso%E2%80%94TED-Ed',
@@ -169,7 +153,7 @@ export default {
     {
       tema: 'Enfermedades causadas por mala alimentación',
       referencia:
-        'AGENCIA EFE (2019). La mala alimentación mata más que el tabaco. [Archivo de video] Youtube.',
+        'AGENCIA EFE (2019). La mala alimentación mata más que el tabaco. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=GjSIx1kVBeA&ab_channel=BBCNewsMundo',
@@ -304,11 +288,11 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        //{
-        //  nombre: 'Luis Gabriel Urueta Alvarez',
-        //  cargo: 'Validador y vinculador de recursos educativos digitales',
-        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //},
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         //{
         //  nombre: 'Jaime Hernán Tejada Llano',
         //  cargo: 'Validador y vinculador de recursos educativos digitales',
