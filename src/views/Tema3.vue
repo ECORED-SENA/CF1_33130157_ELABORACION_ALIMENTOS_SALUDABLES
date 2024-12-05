@@ -74,7 +74,7 @@
               figure
                 img(src='@/assets/curso/tema3/img6.png', alt='', style='width: 180px').m-auto
             .col
-              p.mb-0 #[b Por ejemplo, el 27.3 % de los niños de 1 a 4 años presentan deficiencia de vitamina A, y el 36 % de estos niños tienen bajos niveles de zinc. La prevalencia de anemia en mujeres en edad fértil fue del 15 %, con un impacto mayor en poblaciones indígenas y afrodescendientes.]
+              p.mb-0 Por ejemplo, el 27.3 % de los niños de 1 a 4 años presentan deficiencia de vitamina A, y el 36 % de estos niños tienen bajos niveles de zinc. La prevalencia de anemia en mujeres en edad fértil fue del 15 %, con un impacto mayor en poblaciones indígenas y afrodescendientes.
     .row.align-items-center(data-aos="fade-left")
       .col-md-auto.mb-4.mb-md-0
         figure

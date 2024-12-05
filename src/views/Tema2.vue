@@ -299,7 +299,7 @@
               p.mb-0 Las proteínas transportan sustancias esenciales como el oxígeno (hemoglobina y mioglobina) y lípidos (lipoproteínas) en el cuerpo.
           .row(numero="7" titulo="Función contráctil")
             .col-12
-              p.mb-0 Proteínas como la actina y la miosina regulan la contracción y el estiramiento muscular, formando las miofibras responsables de estos movimientos.
+              p.mb-0 Proteínas como la actina y la miosina regulan la contracción y el estiramiento muscular, formando las miofibrillas responsables de estos movimientos.
       .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img19.png', alt='', style="width: 300px").m-auto
@@ -310,7 +310,7 @@
     .row.align-items-center.mb-5
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p Al igual que los carbohidratos, las grasas son un conjunto de moléculas orgánicas cuyo principal componente es el carbono e hidrógeno. También se les denomina lípidos, aunque es importante señalar que los lípidos abarcan una mayor variedad de compuestos, mientras que las grasas corresponden únicamente a un subconjunto de estos. Las grasas están presentes en los alimentos y son componentes esenciales de la dieta.
-        p.mb-0 Al igual que los carbohidratos, las grasas son un conjunto de moléculas orgánicas cuyo principal componente es el carbono y el hidrógeno.
+
       .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img20.png', alt='', style="width: 380px").m-auto
@@ -318,7 +318,7 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8.mb-4.mb-lg-0
           .bloque-texto-a__texto.p-4
-            p EI tipo de grasa más común en el cuerpo humano son los triglicéridos, que se transportan a través de la sangre y provienen de las grasas consumidas durante la digestión. Los triglicéridos suministran energía a los órganos y músculos internos, y también pueden almacenarse como grasa.
+            p El tipo de grasa más común en el cuerpo humano son los triglicéridos, que se transportan a través de la sangre y provienen de las grasas consumidas durante la digestión. Los triglicéridos suministran energía a los órganos y músculos internos, y también pueden almacenarse como grasa.
         .col-lg-4
           figure
             img(src='@/assets/curso/tema2/img21.png', alt='', style="width: 270px").m-auto
