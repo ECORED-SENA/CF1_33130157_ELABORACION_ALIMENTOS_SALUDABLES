@@ -163,7 +163,7 @@ export default {
     {
       termino: 'Carbohidratos',
       significado:
-        'nutrientes que proporcionan energía al cuerpo. se dividen en monosacáridos, disacáridos, oligosacáridos y polisacáridos.',
+        'nutrientes que proporcionan energía al cuerpo. Se dividen en monosacáridos, disacáridos, oligosacáridos y polisacáridos.',
     },
     {
       termino: 'Diabetes',
